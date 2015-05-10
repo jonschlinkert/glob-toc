@@ -1,7 +1,7 @@
 {
   "name": "glob-toc",
   "description": "Create a table of contents from a glob of files.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "homepage": "https://github.com/jonschlinkert/glob-toc",
   "author": {
     "name": "Jon Schlinkert",
@@ -19,7 +19,8 @@
     "url": "https://github.com/jonschlinkert/glob-toc/blob/master/LICENSE"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "natural-sort.js"
   ],
   "main": "index.js",
   "engines": {
