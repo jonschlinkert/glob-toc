@@ -1,0 +1,40 @@
+{
+  "name": "glob-toc",
+  "description": "Create a table of contents from a glob of files.",
+  "version": "0.1.1",
+  "homepage": "https://github.com/jonschlinkert/glob-toc",
+  "author": {
+    "name": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jonschlinkert/glob-toc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/glob-toc/issues"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/jonschlinkert/glob-toc/blob/master/LICENSE"
+  },
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "globby": "^2.0.0",
+    "markdown-utils": "^0.6.1",
+    "pad-left": "^1.0.2"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  }
+}
