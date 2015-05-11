@@ -9,7 +9,6 @@
 
 /* deps:mocha */
 require('should');
-var assert = require('assert');
 var toc = require('./');
 
 describe('toc', function () {
